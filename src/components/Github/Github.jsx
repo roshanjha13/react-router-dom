@@ -15,14 +15,14 @@ function Github() {
   return (
     <div className="text-center m-4 bg-gray-600 text-white p-4 text-3xl">
       <ul className="float-right mr-40">
-        <li className="p-3 rounded-lg  text-lime-400">
+        <li className="p-3 rounded-lg  text-orange-600">
           Github followers: {data.followers}
         </li>
-        <li className="p-3 rounded-lg text-lime-400">
+        <li className="p-3 rounded-lg text-orange-600">
           Location:{data.location}
         </li>
-        <li className="p-3 rounded-lg text-lime-400">Name:{data.name}</li>
-        <li className="p-3 rounded-lg text-lime-400">
+        <li className="p-3 rounded-lg text-orange-600">Name:{data.name}</li>
+        <li className="p-3 rounded-lg text-orange-600">
           Twitter:{data.twitter_username}
         </li>
       </ul>
